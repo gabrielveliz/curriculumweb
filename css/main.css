@@ -34,17 +34,46 @@ body
 {
 	color: white;
 	text-shadow: 3px 3px 4px black;
-	background-color: rgba(0,0,0,0.4);
+}
 
+
+.titulo
+{
+	font-size: 50px;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+
+}
+.por
+{
+	padding: 20px;
 }
 
 .contenedor2
 {
 	width: 100%;
 	padding: 0;
+	box-sizing: 100%;
+}
+.conte1,.pie1
+{
 	background-image: url(../img/portada.png);
 	background-attachment: fixed;
-
+}
+.conte2,.pie2
+{
+	background-image: url(../img/Portada-Curriculum.png);
+	background-attachment: fixed;
+}
+.conte3,.pie3
+{
+	background-image: url(../img/Portada-Portafolio.png);
+	background-attachment: fixed;
+}
+.conte4,.pie4
+{
+	background-image: url(../img/Portada-Contacto.png);
+	background-attachment: fixed;
 }
 .ContSeg
 {
@@ -95,8 +124,7 @@ body
 
 .pie
 {
-	background-image: url(../img/portada.png);
-	background-attachment: fixed;
+
 	box-sizing: 100%;
 	padding: 1%;
 	
