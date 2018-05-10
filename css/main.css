@@ -75,9 +75,31 @@ body
 	background-image: url(../img/Portada-Contacto.png);
 	background-attachment: fixed;
 }
-.ContSeg
+.CurFon
 {
+	background-color: white;
+	box-shadow: 3px 3px 10px #00B27F;
+	margin: 10px auto;
+	border-radius: 5px;
+	padding: 20px;
+}
+.CurFon:hover
+{
+	box-shadow: 3px 3px 10px #FF5200;
+}
+.CurFon li
+{
+	color: #009688;
+}
+.lista
+{
+	color: black;
+}
+.ContSeg
+{	
+	width: 100%;
 	box-sizing: 100%;
+	background-color: #E0E0E0;
 }
 
 .Cono
@@ -126,8 +148,8 @@ body
 {
 
 	box-sizing: 100%;
-	padding: 1%;
 	
+	width: 100%;
 	color: white;
 }
 .redes
