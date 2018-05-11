@@ -82,12 +82,13 @@ body
 	margin: 10px auto;
 	border-radius: 5px;
 	padding: 20px;
+	float: left;
 }
 .CurFon:hover
 {
 	box-shadow: 3px 3px 10px #FF5200;
 }
-.CurFon li
+li
 {
 	color: #009688;
 }
@@ -116,6 +117,30 @@ body
 {
 	box-shadow: 3px 3px 10px #FF5200;
 }
+.ImgCur
+{
+	box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.6);
+	border-radius: 10px;
+	display: block;
+	margin: 0px auto;
+}
+.udla
+{
+	width: 200px;
+}
+.havas,.cpech
+{
+	width: 150px;
+}
+.tquila
+{
+	width: 150px;
+}
+.mv,.fach,.ipm
+{
+	width: 100px;
+}
+
 .Cono p
 {
 	text-align: center;
