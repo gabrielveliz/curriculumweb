@@ -67,13 +67,26 @@ body
 }
 .conte3,.pie3
 {
-	background-image: url(../img/Portada-Portafolio.png);
+	background-image: url(../img/Portada-soy.png);
 	background-attachment: fixed;
 }
 .conte4,.pie4
 {
 	background-image: url(../img/Portada-Contacto.png);
 	background-attachment: fixed;
+}
+
+.ContQuien
+{
+	width: 100%;
+	box-sizing: 100%;
+	padding: 10px;
+}
+
+.fami
+{
+	width: 100%;
+	border-radius: 100%;
 }
 .CurFon
 {
@@ -207,8 +220,34 @@ li
 }
 
 
+/*
+Formulario
+*/
 
-
+.formulario
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 5px;
+	box-sizing: 100%;
+	padding: 2%;
+	box-shadow: 3px 3px 10px black;
+}
+.formulario label
+{
+	color: white;
+	font-size: 20px;
+}
+#ForTex1
+{
+	border: 0px solid black;
+}
+textarea
+{
+	height:100px;
+}
 
 
 header
