@@ -255,11 +255,24 @@ Formulario
 	display: block;
 	margin: auto;
 	margin-bottom: 20px;
+
 	background-color: rgba(0,0,0,0.7);
 	border-radius: 5px;
 	box-sizing: 100%;
 	padding: 2%;
 	box-shadow: 3px 3px 10px black;
+}
+.ImgContact
+{
+width: 250px;
+display: block;
+margin: auto;
+border-radius: 100%;
+}
+.formulario h4
+{
+	color: white;
+
 }
 .formulario label
 {
@@ -459,5 +472,22 @@ meter
 		float: right;
 		font-size: 30px;
 	}
-	
+
+		meter
+	{
+		padding-left: 1px;
+
+	}
+	.bor
+	{
+		display: none;
+	}
+	.fami
+	{
+		width: 200px;
+	}
+	.ImgContact
+	{
+	width: 180px;
+	}
 }
